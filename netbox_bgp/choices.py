@@ -8,11 +8,11 @@ class CommunityStatusChoices(ChoiceSet):
     STATUS_RESERVED = 'reserved'
     STATUS_DEPRECATED = 'deprecated'
 
-    CHOICES = (
+    CHOICES = [
         (STATUS_ACTIVE, 'Active', 'blue'),
         (STATUS_RESERVED, 'Reserved', 'cyan'),
         (STATUS_DEPRECATED, 'Deprecated', 'red'),
-     )
+    ] 
 
 
 class SessionStatusChoices(ChoiceSet):
@@ -23,12 +23,12 @@ class SessionStatusChoices(ChoiceSet):
     STATUS_PLANNED = 'planned'
     STATUS_FAILED = 'failed'
 
-    CHOICES = (
+    CHOICES = [
         (STATUS_OFFLINE, 'Offline', 'orange'),
         (STATUS_ACTIVE, 'Active', 'green'),
         (STATUS_PLANNED, 'Planned', 'cyan'),
         (STATUS_FAILED, 'Failed', 'red'),
-    )
+    ] 
 
 
 class ActionChoices(ChoiceSet):
