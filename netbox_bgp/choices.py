@@ -2,6 +2,7 @@ from utilities.choices import ChoiceSet
 
 
 class CommunityStatusChoices(ChoiceSet):
+    key = 'Community.status'
 
     STATUS_ACTIVE = 'active'
     STATUS_RESERVED = 'reserved'
@@ -15,6 +16,7 @@ class CommunityStatusChoices(ChoiceSet):
 
 
 class SessionStatusChoices(ChoiceSet):
+    key = 'BGPSession.status'
 
     STATUS_OFFLINE = 'offline'
     STATUS_ACTIVE = 'active'
