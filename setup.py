@@ -35,6 +35,8 @@ setup(
     install_requires=[],
     packages=find_packages(),
     include_package_data=True,
+    min_version="4.0.0",
+    max_version="4.0.99"
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: Apache Software License',
